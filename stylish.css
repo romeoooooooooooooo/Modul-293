@@ -1,8 +1,4 @@
-* {
-    color: var(--my-txt-color);
-    
-    font-family: myFirstFont;
-}
+
 
 body {
     margin: 0;
@@ -34,23 +30,6 @@ p {
 
 h1 {
     text-align: center;
-}
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
- 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    font-weight: bold;
-} 
-
-@property --my-txt-color {
-    syntax: "<color>";
-    inherits: true;
-    initial-value: #dda0dd;
 }
 
 @media only screen and (max-width: 600px) {
